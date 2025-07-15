@@ -1,18 +1,20 @@
 /* Base styling */
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'VT323', monospace;
+  height: 3000px;;
   background-color: #111111; /* Faint black */
-  color: white;
+  color: rgb(53, 169, 53);
 }
 
 /* Full-width hero section */
 .hero {
   width: 100%;
-  background-color: #0a3d62; /* Blueish background */
+  height: 300px;
+  background-color: black; 
   display: flex;
   justify-content: center;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   box-sizing: border-box;
 }
 
@@ -31,7 +33,7 @@ body {
   height: 200px;
   border-radius: 50%;
   background-color: gray; /* Placeholder if image not loaded */
-  background-image: url('/path-to-your-photo.jpg'); /* Replace with actual image path */
+  background-image: url('./assets/dp.jpeg'); /* Replace with actual image path */
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
@@ -39,8 +41,14 @@ body {
 
 /* Text content */
 .hero-text {
-  text-align: center;
+  margin-top: -30px;
+  text-align:left;
+ 
 }
+/*for typing effect*/
+
+
+
 
 h1 {
   font-size: 3.2em;
@@ -48,7 +56,7 @@ h1 {
 }
 
 p {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   font-size: 1.2rem;
 }
 
