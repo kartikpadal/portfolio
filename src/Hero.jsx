@@ -41,26 +41,27 @@ function Hero() {
         <div className="hero-text">
           <h1>Kartik Padal</h1>
           <p className="typewriter">
-              {lines.map((line, idx) => {
-                const typedLine = displayedText[idx] || '';
-                const isActiveLine = idx === currentLine;
+            {lines.map((line, idx) => {
+              const typedLine = displayedText[idx] || '';
+              const isLastLine = idx === lines.length - 1;
+              const isActiveLine = idx === currentLine;
 
-                return (
-                  <span key={idx}>
-                    {typedLine}
-                    {isActiveLine && charIndex < line.length ? <span className="cursor">_</span> : null}
-                    <br />
-                  </span>
-                );
-              })}
-
-              {/* Show cursor at end when typing is complete */}
-              {currentLine === lines.length && (
-                <span className="cursor">_</span>
-                 )}
+              return (
+                <span key={idx}>
+                  {typedLine}
+                  {isActiveLine && charIndex < line.length ? (
+                    <span className="cursor">_</span>
+                  ) : null}
+                  {/* Only add <br /> if it's not the last line */}
+                  {!isLastLine && <br />}
+                  {/* Final cursor after last line, only after full typing */}
+                  {isLastLine && currentLine === lines.length && (
+                    <span className="cursor">_</span>
+                  )}
+                </span>
+              );
+            })}
           </p>
-
-
         </div>
       </div>
     </section>
