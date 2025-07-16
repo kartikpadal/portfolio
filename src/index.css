@@ -59,8 +59,10 @@ body {
 .cursor {
   display: inline-block;
   width: 1ch;
-  animation: blink 1s infinite;
+  margin-left: 2px;
+  animation: blink 1s steps(1) infinite;
 }
+
 
 @keyframes blink {
   0%, 100% { opacity: 1; }

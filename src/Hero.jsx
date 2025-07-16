@@ -41,14 +41,20 @@ function Hero() {
         <div className="hero-text">
           <h1>Kartik Padal</h1>
           <p className="typewriter">
-            {displayedText.map((line, idx) => (
-              <span key={idx}>
-                {line}
-                <br />
-              </span>
-            ))}
-            <span className="cursor">_</span>
+            {lines.map((line, idx) => {
+              const typedLine = displayedText[idx] || '';
+              const isActiveLine = idx === currentLine;
+
+              return (
+                <span key={idx}>
+                  {typedLine}
+                  {isActiveLine && charIndex < line.length ? <span className="cursor">_</span> : null}
+                  <br />
+                </span>
+              );
+            })}
           </p>
+
         </div>
       </div>
     </section>
