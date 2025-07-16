@@ -22,7 +22,7 @@ body {
 .hero-content {
   display: flex;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1150px;
   width: 100%;
   gap: 2rem;
 }
@@ -41,11 +41,31 @@ body {
 
 /* Text content */
 .hero-text {
-  margin-top: -30px;
+  margin-top: -10px;
   text-align:left;
  
 }
 /*for typing effect*/
+.typewriter {
+  font-family:'VT323', monospace;
+  white-space: pre-line;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgb(53, 169, 53);
+  max-width: 900px;
+  margin-top: 2rem;
+}
+
+.cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
 
 
 
@@ -56,7 +76,7 @@ h1 {
 }
 
 p {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 1.2rem;
 }
 
