@@ -35,6 +35,7 @@ function Hero() {
   }, [charIndex, currentLine, displayedText]);
 
   return (
+    <>
     <section className="hero">
       <div className="hero-content">
         <div className="hero-image"></div>
@@ -65,6 +66,8 @@ function Hero() {
         </div>
       </div>
     </section>
+    <h1>Projects</h1>
+    </>
   );
 }
 
