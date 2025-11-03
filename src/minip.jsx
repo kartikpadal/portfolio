@@ -1,4 +1,4 @@
-import Minip from './minip.jsx';
+
 
 function Minip(){
     return(
