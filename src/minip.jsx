@@ -1,6 +1,6 @@
 function Minip() {
   
-     const projects = [
+    const projects = [
     {
       title: "RingZo",
       desc: "Custom ringtone generator using YouTube & Spotify links.",

@@ -83,3 +83,16 @@ p {
 }
 
 
+
+
+/* Mini projects section */
+.minip-section {
+  padding: 2rem 2rem;
+  color: rgb(53, 169, 53);
+}
+
+.mini-title {
+  font-family: 'VT323', monospace;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
