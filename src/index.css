@@ -120,3 +120,31 @@ p {
   background: rgb(53, 169, 53);
   border-radius: 10px;
 }
+
+/* Card styles */
+.mini-card {
+  background: #0c0c0c;
+  border: 1px solid rgb(53, 169, 53);
+  border-radius: 8px;
+  padding: 1rem;
+  min-width: 250px;
+  max-width: 260px;
+  display: inline-block;
+  white-space: normal;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.mini-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px rgb(53, 169, 53);
+}
+
+.mini-card h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.mini-card p {
+  margin: .6rem 0 1rem 0;
+  font-size: 1rem;
+}
