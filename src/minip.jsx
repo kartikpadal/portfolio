@@ -1,5 +1,27 @@
 function Minip() {
   
+     const projects = [
+    {
+      title: "RingZo",
+      desc: "Custom ringtone generator using YouTube & Spotify links.",
+      link: "#",
+    },
+    {
+      title: "TeamSync",
+      desc: "Real-time project management app with chat & notifications.",
+      link: "#",
+    },
+    {
+      title: "WeatherNow",
+      desc: "A minimal weather forecasting app using OpenWeather API.",
+      link: "#",
+    },
+    {
+      title: "QuizMaster",
+      desc: "MCQ quiz web app with timer, scoring and leaderboard.",
+      link: "#",
+    },
+  ];
 
   return (
     <>
