@@ -4,7 +4,7 @@ function Minip() {
     {
       title: "RingZo",
       desc: "Custom ringtone generator using YouTube & Spotify links.",
-      link: "#",
+      link: "https://github.com/kartikpadal/ringzo",
     },
     {
       title: "TeamSync",

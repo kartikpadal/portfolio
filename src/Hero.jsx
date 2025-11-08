@@ -66,7 +66,7 @@ function Hero() {
         </div>
       </div>
     </section>
-    <h1>Mini-projects</h1>
+    
     </>
   );
 }
