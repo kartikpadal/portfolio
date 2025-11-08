@@ -7,19 +7,19 @@ function Minip() {
       link: "https://github.com/kartikpadal/ringzo",
     },
     {
-      title: "TeamSync",
-      desc: "Real-time project management app with chat & notifications.",
-      link: "#",
+      title: "Rate my friend",
+      desc: "Just learning and goofin around.",
+      link: "https://kartikpadal.github.io/star-rating",
     },
     {
-      title: "WeatherNow",
-      desc: "A minimal weather forecasting app using OpenWeather API.",
-      link: "#",
+      title: "Tic-Tac-Toe",
+      desc: "Wanna play games bro???",
+      link: "https://kartikpadal.github.io/tic-tac-toe-game",
     },
     {
-      title: "QuizMaster",
-      desc: "MCQ quiz web app with timer, scoring and leaderboard.",
-      link: "#",
+      title: "To-do list",
+      desc: "Make a list of things you want to do.",
+      link: "https://kartikpadal.github.io/todo-list",
     },
   ];
 
