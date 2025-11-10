@@ -136,7 +136,10 @@ p {
   padding: 1rem;
   min-width: 250px;
   max-width: 260px;
-  display: inline-block;
+  display: flex;              /* NEW */
+  flex-direction: column;     /* NEW */
+  justify-content: space-between; /* NEW */
+  
   white-space: normal;
   transition: transform .2s ease, box-shadow .2s ease;
 }
@@ -154,6 +157,7 @@ p {
 }
 
 .mini-card p {
+  flex: 1;
   margin: .6rem 0 1rem 0;
   font-size: 1rem;
 }
@@ -163,6 +167,7 @@ p {
   color: rgb(53, 169, 53);
   border: 1px solid rgb(53, 169, 53);
   padding: .3rem .7rem;
+  width: 8rem;
   font-family: 'VT323', monospace;
   text-decoration: none;
   border-radius: 5px;
