@@ -205,7 +205,9 @@ p {
   overflow-y: visible;
   padding-bottom: 1rem;
   scroll-behavior: smooth;
-  white-space: nowrap;
+  white-space: normal;
+  flex-wrap: nowrap; /* ensures horizontal scroll still works */
+
 }
 
 /* Custom scrollbar for projects */
@@ -231,6 +233,9 @@ p {
   min-width: 350px;
   max-width: 380px;
   height: 260px; /* a bit taller than mini cards */
+
+  word-wrap: break-word;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
@@ -261,6 +266,7 @@ p {
 /* Button */
 .project-btn {
   color: rgb(53, 169, 53);
+  width: 9rem;
   border: 1px solid rgb(53, 169, 53);
   padding: 0.4rem 0.8rem;
   font-family: 'VT323', monospace;
