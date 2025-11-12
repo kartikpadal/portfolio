@@ -1,5 +1,6 @@
 import Hero from './Hero.jsx';
 import Minip from './minip.jsx';
+import Projects from './Projects.jsx';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Hero />
       <Minip/>
+      <Projects/>
     </>
   );
 }
