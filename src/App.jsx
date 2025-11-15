@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Hero />
-      <Minip/>
       <Projects/>
+      <Minip/>
     </>
   );
 }

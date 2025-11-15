@@ -4,12 +4,12 @@ function Projects(){
     {
       title: "TeamSync",
       desc: "A real-time project management web app with chat, notifications, and admin control. Built with React, Socket.IO, Express.js, MongoDB, and JWT.",
-      link: "https://github.com/kartikpadal/TeamSync",
+      link: "https://github.com/Kaustubh-Upare/ProjectManagement",
     },
     {
       title: "RingZo",
       desc: "Web app that lets users paste YouTube/Spotify links, trim favorite segments, and download them as ringtones. Responsive UI built with React and Node.js.",
-      link: "https://ringzo.vercel.app/",
+      link: "https://github.com/kartikpadal/ringzo",
     }
   ];
     
